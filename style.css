@@ -1,0 +1,92 @@
+body{
+    background-color: #a20bcc;
+}
+label[for="name"]{
+    font-size: 20px;
+}
+
+label[for="title"]{
+    font-size: 20px;
+}
+
+label[for="description"]{
+    font-size: 20px;
+}
+
+label[for="due Date"]{
+    font-size: 20px;
+}
+
+#form{
+    width: 400px;
+    margin: 20vh auto 0 auto;
+    margin-top: auto;
+    background-color: whitesmoke;
+    padding: 30px;
+}
+h1{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#button{
+    background-color: #a20bcc;
+    color: white ;
+    border: 1px solid #a20bcc;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 20px 0;
+    font-size: 20px;
+    cursor: pointer;
+
+}
+
+
+.input-group input{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    font-size: 18px;
+    width: 70%;
+    margin-top: 5px;
+    padding: 10px;
+    border: 2px solid skyblue;
+    width: 100%;
+    
+}
+
+.input-group.success input{
+    border-color: green;
+}
+
+.input-group.error input{
+    border-color: red;
+}
+
+.table{
+    display:table;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+th,td{
+    padding: 20px;
+}
+.t{
+    background-color:#00e1ff;
+}
+.tr{
+    background-color: #71b7e6;
+}
+
+.trr{
+    background-color: gray;
+    color: white;
+}
+
+.trrr{
+    background-color: black;
+    color: white;
+}
